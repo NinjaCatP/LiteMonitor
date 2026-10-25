@@ -1,0 +1,37 @@
+LiteMonitor - a light, detailed PC monitor
+==========================================
+
+HOW TO START
+  Double-click LiteMonitor.exe. Nothing to install, no admin needed.
+  (If Windows shows "Windows protected your PC", click "More info" > "Run anyway".)
+
+TABS
+  Performance - live graphs for CPU (total + every core + clock speed), Memory,
+                each graphics card (NVIDIA: temperature, power, clocks, fan, VRAM),
+                each disk (busy %, read/write speed) and your network.
+  Processes   - every running app: CPU, memory, disk and GPU use.
+                Click a column to sort. Right-click > "End process" to close one.
+  GPU apps    - for each graphics card, which apps use how much video memory (VRAM).
+  GPUs        - Task Manager-style view for each graphics card. Pick a card at
+                the top. Four engine graphs (3D, Copy, Video Encode/Decode...);
+                use the little dropdown on each graph to show a different engine.
+                Tick "Show all engines" to see a graph for every engine the card has.
+                Below: dedicated and shared GPU memory graphs, temperature,
+                driver version and more.
+                Click any engine graph to see which apps are using that engine
+                (grey = used in the last 10 seconds). Double-click an app there
+                to jump to it in Processes. Esc closes the little window.
+                Click the Dedicated or Shared GPU memory graph to see which apps
+                are using that memory on that card.
+  Settings    - update speed, hide to tray, start with Windows.
+
+MINI OVERLAY
+  Press Ctrl+Alt+M (or the "Mini overlay" button) for a small see-through box that
+  stays on top of games. Drag it anywhere. Press Ctrl+Alt+M again to hide it.
+
+TRAY
+  Closing or minimizing hides LiteMonitor next to the clock. Double-click the
+  icon to bring it back. Right-click the icon > Exit to fully quit.
+
+It does no work while it's hidden, so it won't slow your games down.
+Settings and any error log are in: %APPDATA%\LiteMonitor
