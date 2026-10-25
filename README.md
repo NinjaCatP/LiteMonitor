@@ -12,6 +12,25 @@ A lightweight Windows system monitor that uses far fewer resources than Task Man
 - Always-on-top mini overlay for gaming, and a tray icon
 - No admin rights or drivers needed
 
+## Screenshots
+
+### Performance
+![CPU and per-core view](screenshots/performance.png)
+![Memory and GPU overview](screenshots/memory-gpu.png)
+![Disks](screenshots/disks-1.png)
+![More disks](screenshots/disks-2.png)
+![Network](screenshots/network-1.png)
+![More network adapters](screenshots/network-2.png)
+
+### GPUs (per-card engine and memory charts)
+![GPUs page](screenshots/gpus.png)
+
+### GPU apps (VRAM and GPU load per app)
+![GPU apps page](screenshots/gpu-apps.png)
+
+### Processes
+![Processes page](screenshots/processes.png)
+
 ## Download
 Grab `LiteMonitor.exe` from the [Releases](../../releases) page and run it. No install needed.
 
